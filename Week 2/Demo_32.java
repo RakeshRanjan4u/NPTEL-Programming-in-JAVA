@@ -1,4 +1,4 @@
-//A class that gives bluprint of Circle
+//A class that gives blueprint of Circle
 class Circle{
 	double x,y;//The coordinates
 	double r;//The radius
@@ -14,9 +14,7 @@ class Circle{
 	}
 	//Initializing constructor with instance of other object
 	Circle(Circle c){
-		this.x=c.x;
-		this.y=c.y;
-		this.r=c.r;
+		this(c.x,c.y,c.r);
 	}
 	//Default Constructor
 	Circle(){

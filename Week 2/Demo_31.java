@@ -1,4 +1,4 @@
-//A class that gives bluprint of Circle
+//A class that gives blueprint of Circle
 class Circle{
 	double x,y;//The coordinates
 	double r;//The radius
