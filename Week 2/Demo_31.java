@@ -42,7 +42,7 @@ class Demo_31 {
 		Circle c1=new Circle(0,5,10);
 		Box b1=new Box(100,56,20);
 		System.out.println("circumference of Circle is: "+c1.circumference());
-		System.out.println("Arae of Circle: "+c1.area());
+		System.out.println("Area of Circle: "+c1.area());
 		System.out.println("Volume of Box: "+b1.volume());
 	}
 }
