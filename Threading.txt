@@ -1,0 +1,3 @@
+class MyT extends Thread
+{
+}
